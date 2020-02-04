@@ -13,7 +13,7 @@ En este patrón podemos ver tres objetos claramente definidos que actúan en conju
 
 Ahora bien, en spring vamos a utilizar este patrón de arquitectura, pero adaptado a la web, por lo que la interacción seria como la de la imagen ->
 
-![Grafico MVC](docs/assets/mvc-graphic.png)
+![Grafico MVC](assets/mvc-graphic.png)
 
 
 Referencias:

@@ -5,22 +5,22 @@ El alumno puede encontrar aquí una serie de ejemplos y una breve explicación par
 punto de partida clase a clase
 
 1. [Spring MVC](docs/mvc.md)
-    * [URL Mapping](https://github.com/spardo83/taller-web-1/docs/url-mapping.md)
-    * [GET & Query params](https://github.com/spardo83/taller-web-1/docs/query-params.md)
+    * [URL Mapping](docs/url-mapping.md)
+    * [GET & Query params](docs/query-params.md)
 2. Arquitectura e integración continua
-    * [Arquitectura de capas](https://github.com/spardo83/taller-web-1/docs/architecture.md)
-    * [Integración continua](https://github.com/spardo83/taller-web-1/docs/ci.md)
+    * [Arquitectura de capas](docs/architecture.md)
+    * [Integración continua](docs/ci.md)
 3. Hibernate (ORM)
-    * [Consultas usando criteria](https://github.com/spardo83/taller-web-1/docs/criteria.md)
+    * [Consultas usando criteria](docs/criteria.md)
 4. Hibernate (ORM)
-    * [Relaciones entre objetos](https://github.com/spardo83/taller-web-1/docs/relationships.md)
-    * [Criteria con alias](https://github.com/spardo83/taller-web-1/docs/alias.md)
+    * [Relaciones entre objetos](docs/relationships.md)
+    * [Criteria con alias](docs/alias.md)
 5. Spring MVC
-    * [Path variable](https://github.com/spardo83/taller-web-1/docs/path-variable.md)
-    * [Post & Forms](https://github.com/spardo83/taller-web-1/docs/post-forms.md)
+    * [Path variable](docs/path-variable.md)
+    * [Post & Forms](docs/post-forms.md)
 6. Pruebas automatizadas
-    * [JUnit](https://github.com/spardo83/taller-web-1/docs/junit.md)
+    * [JUnit](docs/junit.md)
 7. Testing avanzado
-    * [Spring testing](https://github.com/spardo83/taller-web-1/docs/spring-test.md)
-    * [Mockito](https://github.com/spardo83/taller-web-1/docs/mockito.md)
+    * [Spring testing](docs/spring-test.md)
+    * [Mockito](docs/mockito.md)
     
