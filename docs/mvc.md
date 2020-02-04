@@ -13,7 +13,8 @@ En este patrón podemos ver tres objetos claramente definidos que actúan en conju
 
 Ahora bien, en spring vamos a utilizar este patrón de arquitectura, pero adaptado a la web, por lo que la interacción seria como la de la imagen ->
 
-![Grafico MVC](https://github.com/spardo83/taller-web-1/docs/assets/mvc-graphic.png)
+![Grafico MVC](https://github.com/spardo83/taller-web-1/blob/master/docs/assets/mvc-graphic.png)
+
 
 Referencias:
 * [Wikipedia (Ingles)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
