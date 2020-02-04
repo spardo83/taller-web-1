@@ -4,7 +4,7 @@
 El alumno puede encontrar aquí una serie de ejemplos y una breve explicación para utilizar como 
 punto de partida clase a clase
 
-1. [Spring MVC](https://github.com/spardo83/taller-web-1/docs/mvc.md)
+1. [Spring MVC](docs/mvc.md)
     * [URL Mapping](https://github.com/spardo83/taller-web-1/docs/url-mapping.md)
     * [GET & Query params](https://github.com/spardo83/taller-web-1/docs/query-params.md)
 2. Arquitectura e integración continua
