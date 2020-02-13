@@ -31,18 +31,24 @@ Para esto utilizaremos una anotación @RequestParam que va a indicar que ese pará
 método se va a mapear desde la URL con un querystring
 
 ##### Caso 1
-```
-@RequestMapping(path = "/hola", method = RequestMethod.GET)
-public String hola(@RequestParam String nombre) {
-    return String.Format("Hola %s", nombre);
+```java
+@Controller
+public class Controlador {
+    @RequestMapping(path = "/hola", method = RequestMethod.GET)
+    public String hola(@RequestParam String nombre) {
+        return String.Format("Hola %s", nombre);
+    }
 }
 ```
 
 ##### Caso 2
-```
-@RequestMapping(path = "/hola", method = RequestMethod.GET)
-public String hola(@RequestParam(name="parametroNombre") String nombre) {
-    return String.Format("Hola %s", nombre);
+```java
+@Controller
+public class Controlador {
+    @RequestMapping(path = "/hola", method = RequestMethod.GET)
+    public String hola(@RequestParam(name="parametroNombre") String nombre) {
+        return String.Format("Hola %s", nombre);
+    }
 }
 ```
 Como se puede ver hay dos formas de mapear el parámetro
@@ -55,29 +61,38 @@ poniendo un detalle mas en el path del @PathVariable, que es encerrar entre llav
 parámetro seleccionado quedando nuestro ejemplo algo así.
 
 ##### Caso 1
-```
-@RequestMapping(path = "/hola/{nombre}", method = RequestMethod.GET)
-public String hola(@PathVariable String nombre) {
-    return String.Format("Hola %s", nombre);
+```java
+@Controller
+public class Controlador {
+    @RequestMapping(path = "/hola/{nombre}", method = RequestMethod.GET)
+    public String hola(@PathVariable String nombre) {
+        return String.Format("Hola %s", nombre);
+    }
 }
 ```
 
 ##### Caso 2
 
-```
-@RequestMapping(path = "/hola/{parametroMapeado}", method = RequestMethod.GET)
-public String hola(@PathVariable(name= "parametroMApeado") String nombre) {
-    return String.Format("Hola %s", nombre);
+```java
+@Controller
+public class Controlador {
+    @RequestMapping(path = "/hola/{parametroMapeado}", method = RequestMethod.GET)
+    public String hola(@PathVariable(name= "parametroMApeado") String nombre) {
+        return String.Format("Hola %s", nombre);
+    }
 }
 ```
 
 Un caso importante es destacar que los parámetros pueden no ser obligatorios, para ello 
 solo debemos marcarlos en la anotación que usemos como por ejemplo:
 
-```
-@RequestMapping(path = "/hola", method = RequestMethod.GET)
-public String hola(@RequestParam(name= "nombre") String nombre, @RequestParam(name= "edad",required = false)Integer edad) {
-    return String.Format("Hola %s", nombre);
+```java
+@Controller
+public class Controlador {
+    @RequestMapping(path = "/hola", method = RequestMethod.GET)
+    public String hola(@RequestParam(name= "nombre") String nombre, @RequestParam(name= "edad",required = false)Integer edad) {
+        return String.Format("Hola %s", nombre);
+    }
 }
 ```
 
