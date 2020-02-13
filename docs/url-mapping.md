@@ -9,10 +9,13 @@ un meotodo a una URL, y lo mas importante que podamos pasarle parámetros dinámic
 
 Para esto vamos a hacer uso de una anotación que es @RequestMapping el ejemplo de como lo vamos a usar es el siguiente
 
-```
-@RequestMapping(path = "/holaMundo", method = RequestMethod.GET)
-public String holaMundo() {
-    return "Hola Mundo desde Spring MVC";
+```java
+@Controller
+public class Controlador {
+    @RequestMapping(path = "/holaMundo", method = RequestMethod.GET)
+    public String holaMundo() {
+        return "Hola Mundo desde Spring MVC";
+    }
 }
 ```
 Bien de esta forma lo que veremos por pantalla al poner en el navegador `http://localhost:8080/proyecto-limpio-spring/holaMundo` 
