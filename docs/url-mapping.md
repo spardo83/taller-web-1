@@ -71,3 +71,20 @@ public String hola(@PathVariable(name= "parametroMApeado") String nombre) {
 }
 ```
 
+Un caso importante es destacar que los parámetros pueden no ser obligatorios, para ello 
+solo debemos marcarlos en la anotación que usemos como por ejemplo:
+
+```
+@RequestMapping(path = "/hola", method = RequestMethod.GET)
+public String hola(@RequestParam(name= "nombre") String nombre, @RequestParam(name= "edad",required = false)Integer edad) {
+    return String.Format("Hola %s", nombre);
+}
+```
+
+###### Referencias:
+* [Servlet](https://programacion.net/articulo/servlets_basico_108/6)
+* [HTTP Protocl](https://www.tutorialspoint.com/http/http_requests.htm)
+* [REST Service](https://www.codigonaranja.com/2018/restful-web-service)
+* [RequestMapping](https://www.baeldung.com/spring-requestmapping)
+* [RequestParam](https://www.baeldung.com/spring-request-param)
+* [Spring Annotations](https://www.baeldung.com/spring-mvc-annotations)
