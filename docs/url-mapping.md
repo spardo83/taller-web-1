@@ -101,7 +101,7 @@ public class Controlador {
 
 ###### Referencias:
 * [Servlet](https://programacion.net/articulo/servlets_basico_108/6)
-* [HTTP Protocl](https://www.tutorialspoint.com/http/http_requests.htm)
+* [HTTP Protocol](https://www.tutorialspoint.com/http/http_requests.htm)
 * [REST Service](https://www.codigonaranja.com/2018/restful-web-service)
 * [RequestMapping](https://www.baeldung.com/spring-requestmapping)
 * [RequestParam](https://www.baeldung.com/spring-request-param)
